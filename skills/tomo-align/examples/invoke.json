@@ -1,0 +1,6 @@
+{
+  "tool": "align_tilt_series",
+  "arguments": {
+    "input": "fixtures/sample"
+  }
+}

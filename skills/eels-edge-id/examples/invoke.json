@@ -1,0 +1,6 @@
+{
+  "tool": "identify_edges",
+  "arguments": {
+    "input": "fixtures/sample"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "tool": "pick_particles",
+  "arguments": {
+    "input": "fixtures/sample"
+  }
+}

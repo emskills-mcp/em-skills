@@ -1,0 +1,10 @@
+{
+  "name": "scalebar-calibrate",
+  "version": "1.0.2",
+  "private": true,
+  "description": "Reproducibility harness for the scalebar-calibrate skill. No runtime dependencies.",
+  "scripts": {
+    "generate-fixture": "node fixtures/generate.js",
+    "verify": "node verify.js"
+  }
+}

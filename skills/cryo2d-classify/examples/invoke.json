@@ -1,0 +1,6 @@
+{
+  "tool": "2d_classify",
+  "arguments": {
+    "input": "fixtures/sample"
+  }
+}

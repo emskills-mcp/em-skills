@@ -1,0 +1,6 @@
+{
+  "tool": "phase_map",
+  "arguments": {
+    "input": "fixtures/sample"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "tool": "calibrate_scale",
+  "arguments": {
+    "input": "fixtures/sample"
+  }
+}

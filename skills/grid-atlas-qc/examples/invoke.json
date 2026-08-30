@@ -1,0 +1,6 @@
+{
+  "tool": "score_atlas",
+  "arguments": {
+    "input": "fixtures/sample"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "tool": "fit_lattice",
+  "arguments": {
+    "input": "fixtures/sample"
+  }
+}

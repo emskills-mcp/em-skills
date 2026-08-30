@@ -1,0 +1,6 @@
+{
+  "tool": "reconstruct_relief",
+  "arguments": {
+    "input": "fixtures/sample"
+  }
+}

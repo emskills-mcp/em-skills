@@ -1,0 +1,6 @@
+{
+  "tool": "fit_ctf",
+  "arguments": {
+    "input": "fixtures/sample"
+  }
+}

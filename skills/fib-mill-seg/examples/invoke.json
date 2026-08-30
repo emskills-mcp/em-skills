@@ -1,0 +1,6 @@
+{
+  "tool": "plan_liftout",
+  "arguments": {
+    "input": "fixtures/sample"
+  }
+}

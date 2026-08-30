@@ -1,0 +1,6 @@
+{
+  "tool": "lock_drift",
+  "arguments": {
+    "input": "fixtures/sample"
+  }
+}

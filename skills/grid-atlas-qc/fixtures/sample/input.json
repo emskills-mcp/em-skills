@@ -1,0 +1,68 @@
+{
+  "grid_n": 5,
+  "thickness_nm": [
+    188.1,
+    170.4,
+    101.2,
+    68.1,
+    119.8,
+    98.0,
+    175.7,
+    77.2,
+    112.7,
+    134.6,
+    201.2,
+    118.5,
+    72.8,
+    169.9,
+    141.8,
+    66.4,
+    201.5,
+    216.5,
+    181.1,
+    199.9,
+    78.6,
+    164.6,
+    199.3,
+    155.2,
+    111.8
+  ],
+  "good_range_nm": [
+    30.0,
+    120.0
+  ],
+  "marginal_range_nm": [
+    20.0,
+    180.0
+  ],
+  "ground_truth": {
+    "labels": [
+      "bad",
+      "marginal",
+      "good",
+      "good",
+      "good",
+      "good",
+      "marginal",
+      "good",
+      "good",
+      "marginal",
+      "bad",
+      "good",
+      "good",
+      "marginal",
+      "marginal",
+      "good",
+      "bad",
+      "bad",
+      "bad",
+      "bad",
+      "good",
+      "marginal",
+      "bad",
+      "marginal",
+      "good"
+    ],
+    "score": 0.44
+  }
+}
