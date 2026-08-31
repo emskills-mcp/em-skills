@@ -18,16 +18,6 @@ license, version, runtime, tool_call. Required body sections: Scope, Safety, Usa
 
 Techniques: SEM, TEM, STEM, EDS, EELS, cryo-EM, FIB.
 
-## Brand assets
-
-<img src="utils/emskills-mark.png" alt="emskills.org mark" width="64" align="left" style="margin-right: 12px;">
-
-[`utils/`](utils/) holds the emskills.org brand assets used across this
-registry and its consumers: [`emskills-mark.png`](utils/emskills-mark.png) is
-the standalone mark (icon-only, for favicons and small placements) and
-[`og-emskills.jpg`](utils/og-emskills.jpg) is the full lockup with wordmark
-and tagline (banners, social previews) shown at the top of this file.
-
 ## Validating
 
 Every skill must pass the registry contract checker before it can be
@@ -65,3 +55,16 @@ via [`.github/workflows/validate.yml`](.github/workflows/validate.yml).
 - [`scalebar-calibrate`](skills/scalebar-calibrate/SKILL.md) — Magnification calibration against certified cross-grating standards.
 - [`particle-picker`](skills/particle-picker/SKILL.md) — Template-free particle picking tuned for low signal-to-noise micrographs.
 - [`lattice-dspacing`](skills/lattice-dspacing/SKILL.md) — Bayesian d-spacing measurement and lattice fitting from HRSTEM images.
+
+## License
+
+Licensing works at two levels here:
+
+- **This repo's tooling** (`scripts/`, the validator, CI config, docs) is
+  licensed under the [MIT License](LICENSE).
+- **Each skill** carries its own license, declared in its `SKILL.md`
+  front-matter (`license:`, an SPDX identifier) and governing that skill's
+  implementation as maintained in its origin repo (`org`/`repo`). Skills in
+  this registry currently use MIT, Apache-2.0, or BSD-3-Clause — check the
+  individual skill's front-matter before redistributing its implementation,
+  since it may differ from this repo's own MIT license.
