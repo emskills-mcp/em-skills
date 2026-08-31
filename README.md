@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="utils/og-emskills.jpg" alt="emskills.org — AI agent skills for electron microscopy" width="720">
+</p>
+
 # em-skills
 
 Canonical registry source for [emskills](https://emskills.org). Every folder under
@@ -13,6 +17,16 @@ Required front-matter keys: name, slug, technique, category, kind, summary,
 license, version, runtime, tool_call. Required body sections: Scope, Safety, Usage.
 
 Techniques: SEM, TEM, STEM, EDS, EELS, cryo-EM, FIB.
+
+## Brand assets
+
+<img src="utils/emskills-mark.png" alt="emskills.org mark" width="64" align="left" style="margin-right: 12px;">
+
+[`utils/`](utils/) holds the emskills.org brand assets used across this
+registry and its consumers: [`emskills-mark.png`](utils/emskills-mark.png) is
+the standalone mark (icon-only, for favicons and small placements) and
+[`og-emskills.jpg`](utils/og-emskills.jpg) is the full lockup with wordmark
+and tagline (banners, social previews) shown at the top of this file.
 
 ## Validating
 
