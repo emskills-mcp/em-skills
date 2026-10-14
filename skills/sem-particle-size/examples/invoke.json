@@ -1,0 +1,8 @@
+{
+  "tool": "nuscope_analyze",
+  "arguments": {
+    "path": "fixtures/sample/sem.tif",
+    "op": "particles",
+    "params": {"min_area_nm2": 2000}
+  }
+}

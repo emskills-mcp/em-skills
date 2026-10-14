@@ -1,0 +1,26 @@
+{
+  "files": [
+    "intact.h5",
+    "pixel_changed.h5",
+    "metadata_changed.h5"
+  ],
+  "ground_truth": {
+    "intact.h5": {
+      "status": "signed",
+      "failed_checks": [],
+      "signer": "em-skills fixture key"
+    },
+    "pixel_changed.h5": {
+      "status": "tampered",
+      "failed_checks": [
+        "data"
+      ]
+    },
+    "metadata_changed.h5": {
+      "status": "tampered",
+      "failed_checks": [
+        "metadata"
+      ]
+    }
+  }
+}

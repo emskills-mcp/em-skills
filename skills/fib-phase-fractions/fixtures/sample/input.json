@@ -1,0 +1,19 @@
+{
+  "labels": "labels.npy",
+  "voxel_nm": [
+    20.0,
+    10.0,
+    10.0
+  ],
+  "classes": {
+    "1": "matrix",
+    "2": "particles"
+  },
+  "ground_truth": {
+    "fractions": {
+      "matrix": 0.771177,
+      "particles": 0.214699
+    },
+    "volume_um3": 0.110592
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "tool": "tomo_phase_fractions",
+  "arguments": {
+    "labels": "/data/fib/sample335/volumes/phases.zarr"
+  }
+}
