@@ -1,0 +1,28 @@
+{
+  "image": "sem.tif",
+  "arguments": {
+    "op": "particles",
+    "params": {
+      "min_area_nm2": 2000
+    }
+  },
+  "ground_truth": {
+    "count": 12,
+    "pixel_size_nm": 10.0,
+    "eq_diameter_nm": [
+      137.736,
+      137.736,
+      137.736,
+      158.376,
+      158.376,
+      158.376,
+      179.48,
+      200.902,
+      200.902,
+      219.092,
+      219.092,
+      219.092
+    ],
+    "median_eq_diameter_nm": 168.928
+  }
+}

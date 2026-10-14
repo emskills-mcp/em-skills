@@ -55,6 +55,20 @@ via [`.github/workflows/validate.yml`](.github/workflows/validate.yml).
 - [`scalebar-calibrate`](skills/scalebar-calibrate/SKILL.md) — Magnification calibration against certified cross-grating standards.
 - [`particle-picker`](skills/particle-picker/SKILL.md) — Template-free particle picking tuned for low signal-to-noise micrographs.
 - [`lattice-dspacing`](skills/lattice-dspacing/SKILL.md) — Bayesian d-spacing measurement and lattice fitting from HRSTEM images.
+- [`sem-particle-size`](skills/sem-particle-size/SKILL.md) — Particle sizing in calibrated nm from any NUANCE SEM file, with provenance.
+- [`provenance-verify`](skills/provenance-verify/SKILL.md) — Check that a microscopy file is unchanged since it was sealed, and who signed it.
+- [`fib-phase-fractions`](skills/fib-phase-fractions/SKILL.md) — Phase volume fractions of a FIB-SEM volume with sampling error bars.
+
+## Skills backed by NUScope
+
+`sem-particle-size`, `provenance-verify` and `fib-phase-fractions` are served by the
+[NUScope](https://github.com/NUANCE-IT/NUScope) and [NUScope-TOMO](https://github.com/NUANCE-IT/NUScope-TOMO)
+plugins of [NUANCE-MCP](https://github.com/NUANCE-IT/NUANCE-MCP): `pip install nuance-mcp nuscope nuscope-tomo`.
+Their tools read every NUANCE instrument's files with calibration from metadata, and the server saves every
+acquisition as a sealed, signed file carrying the DataCite DOI of the instrument. Each skill pins the released
+package and its `verify.py` recovers the fixture's ground truth with it. The design (layers, rules for agents,
+which existing skills NUScope can serve) is in the
+[NUScope guide](https://nuance-it.github.io/NUScope/guide/llm/).
 
 ## License
 

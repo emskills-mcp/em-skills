@@ -1,0 +1,6 @@
+{
+  "tool": "nuscope_verify",
+  "arguments": {
+    "path": "fixtures/sample/intact.h5"
+  }
+}
