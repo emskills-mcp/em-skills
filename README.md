@@ -58,6 +58,7 @@ via [`.github/workflows/validate.yml`](.github/workflows/validate.yml).
 - [`sem-particle-size`](skills/sem-particle-size/SKILL.md) — Particle sizing in calibrated nm from any NUANCE SEM file, with provenance.
 - [`provenance-verify`](skills/provenance-verify/SKILL.md) — Check that a microscopy file is unchanged since it was sealed, and who signed it.
 - [`fib-phase-fractions`](skills/fib-phase-fractions/SKILL.md) — Phase volume fractions of a FIB-SEM volume with sampling error bars.
+- [`tem-view-twin`](skills/tem-view-twin/SKILL.md) — Physics-based TEM digital twin that simulates calibrated images, diffraction, spectra and holograms.
 
 ## Skills backed by NUScope
 
@@ -69,6 +70,17 @@ acquisition as a sealed, signed file carrying the DataCite DOI of the instrument
 package and its `verify.py` recovers the fixture's ground truth with it. The design (layers, rules for agents,
 which existing skills NUScope can serve) is in the
 [NUScope guide](https://nuance-it.github.io/NUScope/guide/llm/).
+
+## Skills backed by TEM-view
+
+`tem-view-twin` runs the [TEM-view](https://github.com/Advanced-EM/TEM-view) digital twin
+([live exhibit](https://advanced-em.github.io/TEM-view/)). It is useful for testing other skills on known ground truth.
+For example, simulate a gold diffraction pattern and check that a d-spacing skill finds 2.355 Å.
+Its MCP server, [`temview-mcp`](https://github.com/Advanced-EM/TEM-view/tree/main/tools/temview-mcp), also lets
+an agent drive an open exhibit:
+- change the optics
+- acquire data
+- answer a visitor's spoken questions out loud (`exhibit_wait_for_voice` and `exhibit_say`)
 
 ## License
 

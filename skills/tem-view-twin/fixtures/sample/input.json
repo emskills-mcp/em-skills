@@ -1,0 +1,30 @@
+{
+  "description": "Selected-area diffraction of gold nanoparticles on carbon, simulated by the TEM-view twin",
+  "runs": [
+    {
+      "mode": "diff",
+      "specimen": "au",
+      "kV": 200,
+      "steps": 10
+    },
+    {
+      "mode": "diff",
+      "specimen": "au",
+      "kV": 300,
+      "steps": 10
+    }
+  ],
+  "truth": {
+    "lattice": "fcc",
+    "a_A": 4.0782,
+    "d_A": {
+      "111": 2.3545,
+      "200": 2.0391,
+      "220": 1.4419
+    }
+  },
+  "tolerance": {
+    "d_rel": 0.025,
+    "a_rel": 0.01
+  }
+}
