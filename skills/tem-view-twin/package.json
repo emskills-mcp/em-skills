@@ -1,0 +1,15 @@
+{
+  "name": "tem-view-twin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproducibility harness for the tem-view-twin skill: runs the TEM-view digital twin headlessly.",
+  "scripts": {
+    "generate-fixture": "node fixtures/generate.js",
+    "verify": "node verify.js --fixture fixtures/sample --seed 0"
+  },
+  "dependencies": {
+    "tem-view": "github:Advanced-EM/TEM-view#569bbf1c8c386deeca252a0ad2fe1d2d1a4279db"
+  },
+  "engines": { "node": ">=20" }
+}

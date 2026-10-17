@@ -1,0 +1,9 @@
+{
+  "tool": "simulate_tem",
+  "arguments": {
+    "mode": "diff",
+    "specimen": "au",
+    "kV": 300,
+    "input": "fixtures/sample"
+  }
+}
